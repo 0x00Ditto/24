@@ -155,7 +155,7 @@
 {
   text-align: center;
   background-color: #303841;
-  height: 4100px;
+  height: 4400px;
   padding: 6em  2em;
 }
 .mission-project-header {
@@ -182,7 +182,7 @@
 
 .ceo-description
 {
-  text-align: left;
+  text-align: center;
   border: 1px solid white;
   width: 420px;
   padding: 20px;
@@ -248,7 +248,7 @@
   -ms-border-radius: 2%;
   -o-border-radius: 2%;
 }
-.lee-description img
+.lucie-description img
 {
   position: absolute;
   left: 5rem;
@@ -259,7 +259,7 @@
   max-width: 150px;
   height: 150px;
 }
-.lee-description p
+.lucie-description p
 {
   text-align: left;
   border: 1px solid white;
@@ -276,7 +276,7 @@
   -o-border-radius: 2%;
 }
 
-.lucie-description img
+.ben-description img
  {
   position: absolute;
   right: 5rem;
@@ -287,7 +287,7 @@
   max-width: 150px;
   height: 150px;
  }
- .lucie-description p
+ .ben-description p
 {
   text-align: right;
   border: 1px solid white;
@@ -303,37 +303,37 @@
   -ms-border-radius: 2%;
   -o-border-radius: 2%;
 }
+
+.lee-description img
+ {
+  position: absolute;
+  left: 5rem;
+  top: 2050px;
+  border-radius: 50%;
+  border: 2px solid;
+  width: 100%px;
+  max-width: 150px;
+  height: 150px;
+ }
+ .lee-description p
+{
+  text-align: left;
+  border: 1px solid white;
+  width: 420px;
+  padding: 20px;
+  border-radius: 2%;
+  position: absolute;
+  top: 2050px;
+  left: 250px;
+  background:#191c29;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+}
+
 
 .luna-description img
- {
-  position: absolute;
-  left: 5rem;
-  top: 2050px;
-  border-radius: 50%;
-  border: 2px solid;
-  width: 100%px;
-  max-width: 150px;
-  height: 150px;
- }
- .luna-description p
-{
-  text-align: left;
-  border: 1px solid white;
-  width: 420px;
-  padding: 20px;
-  border-radius: 2%;
-  position: absolute;
-  top: 2050px;
-  left: 250px;
-  background:#191c29;
-  -webkit-border-radius: 2%;
-  -moz-border-radius: 2%;
-  -ms-border-radius: 2%;
-  -o-border-radius: 2%;
-}
-
-
-.kinkin-description img
 {
   position: absolute;
   right: 5rem;
@@ -344,7 +344,7 @@
   max-width: 150px;
   height: 150px;
 }
-.kinkin-description p
+.luna-description p
 {
   text-align: right;
   border: 1px solid white;
@@ -360,39 +360,10 @@
   -ms-border-radius: 2%;
   -o-border-radius: 2%;
 }
-.diego-description img {
+.charles-description img {
   position: absolute;
   left: 5rem;
   top: 2650px;
-  border-radius: 50%;
-  border: 2px solid;
-  width: 100%px;
-  max-width: 150px;
-  height: 150px;
-}
-
-.diego-description p
-{
-  text-align: left;
-  border: 1px solid white;
-  width: 420px;
-  padding: 20px;
-  border-radius: 2%;
-  position: absolute;
-  top: 2650px;
-  left: 250px;
-  background:#191c29;
-  -webkit-border-radius: 2%;
-  -moz-border-radius: 2%;
-  -ms-border-radius: 2%;
-  -o-border-radius: 2%;
-}
-
-.charles-description img
-{
-  position: absolute;
-  right: 5rem;
-  top: 2950px;
   border-radius: 50%;
   border: 2px solid;
   width: 100%px;
@@ -402,6 +373,35 @@
 
 .charles-description p
 {
+  text-align: left;
+  border: 1px solid white;
+  width: 420px;
+  padding: 20px;
+  border-radius: 2%;
+  position: absolute;
+  top: 2650px;
+  left: 250px;
+  background:#191c29;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+}
+
+.diego-description img
+{
+  position: absolute;
+  right: 5rem;
+  top: 2950px;
+  border-radius: 50%;
+  border: 2px solid;
+  width: 100%px;
+  max-width: 150px;
+  height: 150px;
+}
+
+.diego-description p
+{
   text-align: right;
   border: 1px solid white;
   width: 420px;
@@ -410,6 +410,35 @@
   position: absolute;
   top: 2950px;
   right: 250px;
+  background:#191c29;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+}
+
+.kinkin-description img
+{
+  position: absolute;
+  left: 5rem;
+  top: 3250px;
+  border-radius: 50%;
+  border: 2px solid;
+  width: 100%px;
+  max-width: 150px;
+  height: 150px;
+}
+
+.kinkin-description p
+{
+  text-align: left;
+  border: 1px solid white;
+  width: 420px;
+  padding: 20px;
+  border-radius: 2%;
+  position: absolute;
+  top: 3250px;
+  left: 250px;
   background:#191c29;
   -webkit-border-radius: 2%;
   -moz-border-radius: 2%;
@@ -420,8 +449,8 @@
 .maralk-description img
 {
   position: absolute;
-  left: 5rem;
-  top: 3250px;
+  right: 5rem;
+  top: 3550px;
   border-radius: 50%;
   border: 2px solid;
   width: 100%px;
@@ -431,14 +460,14 @@
 
 .maralk-description p
 {
-  text-align: left;
+  text-align: right;
   border: 1px solid white;
   width: 420px;
   padding: 20px;
   border-radius: 2%;
   position: absolute;
-  top: 3250px;
-  left: 250px;
+  top: 3550px;
+  right: 250px;
   background:#191c29;
   -webkit-border-radius: 2%;
   -moz-border-radius: 2%;
@@ -449,8 +478,8 @@
 .eric-description img
 {
   position: absolute;
-  right: 5rem;
-  top: 3550px;
+  left: 5rem;
+  top: 3850px;
   border-radius: 50%;
   border: 2px solid;
   width: 100%px;
@@ -460,35 +489,6 @@
 
 .eric-description p
 {
-  text-align: right;
-  border: 1px solid white;
-  width: 420px;
-  padding: 20px;
-  border-radius: 2%;
-  position: absolute;
-  top: 3550px;
-  right: 250px;
-  background:#191c29;
-  -webkit-border-radius: 2%;
-  -moz-border-radius: 2%;
-  -ms-border-radius: 2%;
-  -o-border-radius: 2%;
-}
-
-.lisa-description img
-{
-  position: absolute;
-  left: 5rem;
-  top: 3850px;
-  border-radius: 50%;
-  border: 2px solid;
-  width: 100%px;
-  max-width: 150px;
-  height: 150px;
-}
-
-.lisa-description p
-{
   text-align: left;
   border: 1px solid white;
   width: 420px;
@@ -503,7 +503,7 @@
   -ms-border-radius: 2%;
   -o-border-radius: 2%;
 }
-.yamabro-description img
+.lisa-description img
 {
   position: absolute;
   right: 5rem;
@@ -515,7 +515,7 @@
   height: 150px;
 }
 
-.yamabro-description p
+.lisa-description p
 {
   text-align: right;
   border: 1px solid white;
@@ -531,7 +531,7 @@
   -ms-border-radius: 2%;
   -o-border-radius: 2%;
 }
-.la-legende-description img
+.yamabro-description img
 {
   position: absolute;
   left: 5rem;
@@ -543,7 +543,7 @@
   height: 150px;
 }
 
-.la-legende-description p
+.yamabro-description p
 {
   text-align: left;
   border: 1px solid white;
@@ -553,6 +553,33 @@
   position: absolute;
   top: 4450px;
   left: 250px;
+  background:#191c29;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+}
+.la-legende-description img{
+  position: absolute;
+  right: 5rem;
+  top: 4750px;
+  border-radius: 50%;
+  border: 2px solid;
+  width: 100%px;
+  max-width: 150px;
+  height: 150px;
+}
+
+.la-legende-description p
+{
+  text-align: right;
+  border: 1px solid white;
+  width: 420px;
+  padding: 20px;
+  border-radius: 2%;
+  position: absolute;
+  top: 4750px;
+  right: 250px;
   background:#191c29;
   -webkit-border-radius: 2%;
   -moz-border-radius: 2%;
